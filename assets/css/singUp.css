@@ -1,0 +1,134 @@
+:root {
+    --colorTextoInputPadrao: #B5B5B5;
+    --colorBtnPadrao: #ffffff;
+    --backgroundBtnPadrao: #00A335;
+    --backgroundColorSignPadrao: #ffff;
+    --backgroundColorHtmlPadrao: #f0f0f0;
+    --colorLink: #00A335;
+    --colorTextoPadrao: #000000;
+    --borderInputPadrao: #a1a1a1;
+    --backgroundInput: #ffffff;
+    --backgroundBody: #2c2c2c;
+    --backgroundInputHover: rgba(206, 213, 224, 0.83);
+}
+
+body {
+    background-color: var(--backgroundColorHtmlPadrao) !important;
+}
+
+#registerForm  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 643px;
+    width: 486px;
+    background-color: #ffffff;
+    font-size: 25px !important;
+    border-radius: 6px;
+    margin: 17% auto auto auto;
+}
+.tituloCadastro {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#textCriarConta {
+    display: flex;
+    justify-content: center;
+    color: var(--colorTextoInputPadrao);
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.mb-3   {
+    display: flex;
+    justify-content: center;
+}
+
+input   {
+    background-color: var(--backgroundInput);
+    width: 346px;
+    height: 41.52px;
+}
+
+.inputDuplo1 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.inputDuplo2   {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#email #telefone #password #confirmPassword {
+    width: 173px;
+    height: 41.52px;
+}
+
+/* #telefone {
+    width: 175px;
+    height: 41.52px;
+}
+
+#password {
+    width: 175px;
+    height: 41.52px;
+}
+
+#confirmPassword {
+    width: 175px;
+    height: 41.52px;
+} */
+
+.inputControl   {
+    color: var(--backgroundInput);
+}
+
+.inputControl:hover {
+    background-color: var(--backgroundInputHover) !important;
+}
+
+button  {
+    background-color: var(--backgroundBtnPadrao);
+    color: var(--backgroundBtnPadrao);
+    border-radius: 6px;
+    width: 346px;
+    height: 41.52px;
+}
+
+.btn-primary    {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+#realizarLogin  {
+    display: block;
+}
+
+#possuiLogin    {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 20px;
+}
+
+p{
+    color: var(--colorTextoPadrao);
+}
+
+#link   {
+    color: var(--colorLink);
+}
+
+#possuiConta {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: var(--colorTextoPadrao);
+}

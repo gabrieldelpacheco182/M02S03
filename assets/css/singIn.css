@@ -1,0 +1,92 @@
+:root {
+    --colorTextoInputPadrao: #B5B5B5;
+    --colorBtnPadrao: #ffffff;
+    --backgroundBtnPadrao: #00A335;
+    --backgroundColorSignPadrao: #ffff;
+    --backgroundColorHtmlPadrao: #f0f0f0;
+    --colorLink: #00A335;
+    --colorTextoPadrao: #000000;
+    --borderInputPadrao: #a1a1a1;
+    --backgroundInput: #ffffff;
+    --backgroundBody: #2c2c2c;
+    --backgroundInputHover: rgba(206, 213, 224, 0.83);
+}
+
+body {
+    background-color: var(--backgroundColorHtmlPadrao) !important;
+}
+#background1 {
+    display: flex;
+    justify-content: center;
+    height: 384px !important;
+    width: 480px !important;
+    background-color: #ffffff;
+    font-size: 25px !important; 
+    border-radius: 6px;
+    margin: 17% auto auto auto;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#textGredencial {
+    display: flex;
+    justify-content: center;
+    color: var(--colorTextoInputPadrao);
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: var(--backgroundInput);
+    width: 346px;
+    height: 41.52px;
+}
+
+.inputControl   {
+    color: var(--colorTextoInputPadrao);
+    margin-top: 30.48px;
+}
+.inputControl:hover {
+    background-color: var(--backgroundInputHover) !important;
+}
+button {
+    background-color: var(--backgroundBtnPadrao);
+    color: var(--colorBtnPadrao);
+    border-radius: 6px;
+    width: 346px;
+    height: 41.52px;
+}
+.btn-primary    {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#redirecionamento {
+    display: block;
+}
+
+.textLinks {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+
+p {
+    color: var(--colorTextoPadrao);
+}
+
+.link {   
+    color: var(--colorLink);
+}
